@@ -77,7 +77,7 @@ sudo nano /etc/rc.local
 Before the final "exit 0" line, insert this line:
 
 ````
-/home/pi/Recalbox-Retrogame-2Players-Pi2/retrogame &
+/home/pi/Nanocab-Pi1-Pi2-Retrogame/retrogame &
 
 ````
 If you placed the software in a different location, this line should be changed accordingly. "sudo" isn't necessary here because the rc.local script is already run as root.
@@ -95,7 +95,7 @@ Each emulator will have its own method for configuring keyboard input. Set them 
 Arcade Wiring
 =============
 
-See https://github.com/ian57/Raspicade-Retrogame-2Player-BPlus/wiki
+See https://github.com/ian57/Nanocab-Pi1-Pi2-Retrogame/wiki
 
 
 
