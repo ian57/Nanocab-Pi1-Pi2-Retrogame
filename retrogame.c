@@ -95,19 +95,19 @@ struct {
 	{  2,     KEY_UP       },   // Up
 	{  3,     KEY_DOWN     },   // Down
 	{  4,     KEY_LEFT     },   // Left Joystick (4 pins)
-	{ 29,     KEY_RIGHT    },   // Right
-	{ 31,     KEY_LEFTCTRL },   // Button 1
-	{ 33,     KEY_LEFTALT  },   // Button 2
-	{ 35,     KEY_SPACE  },     // Button 3
-	{ 37,     KEY_LEFTSHIFT  },   // Button 4
-	{  8,     KEY_Z  },   // Button 5
-	{ 10,     KEY_X  },   // Button 6
-	{ 32,     KEY_1  },   // Button Start P1
-	{ 22,     KEY_5  },   // Button Coins/Credits P1
+	{  5,     KEY_RIGHT    },   // Right
+	{  6,     KEY_LEFTCTRL },   // Button 1
+	{ 13,     KEY_LEFTALT  },   // Button 2
+	{ 19,     KEY_SPACE  },     // Button 3
+	{ 26,     KEY_LEFTSHIFT  },   // Button 4
+	{ 14,     KEY_Z  },   // Button 5
+	{ 15,     KEY_X  },   // Button 6
+	{ 25,     KEY_1  },   // Button Start P1
+	{ 12,     KEY_5  },   // Button Coins/Credits P1
 	// Button to halt system on pin 15 -> sudo halt
-	{ 36, 	  KEY_ESC },    // Button to exit emulators and programs
-	{ 38,     KEY_TAB },   // Button to show mame menuCoins/Credits P2
-	{ 40, 	  KEY_0 },    // Button to user action
+	{ 16, 	  KEY_ESC },    // Button to exit emulators and programs
+	{ 20,     KEY_TAB },   // Button to show mame menuCoins/Credits P2
+	{ 21, 	  KEY_0 },    // Button to user action
 	// For credit/start/etc., use USB keyboard or add more buttons.
 	{  -1,     -1           } }; // END OF LIST, DO NOT CHANGE
 
